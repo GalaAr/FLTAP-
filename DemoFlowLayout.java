@@ -6,4 +6,19 @@ import javax.swing.WindowConstants;
 import javax.swing.JFrame;
 
 public class DemoFlowLayout {
-} //Comentario mas comentarios putos
+	private JButton botonEnviar;
+	private JTextField caja_txt;
+	private JLabel etiqueta;
+
+	public void buildWindow(){
+		//Creación de la ventana
+		JFrame frame = new JFrame();
+		frame.setLayout(new FlowLayout());
+		//Inserción de los componentes
+		botonEnviar = new JButton("Enviar");
+		caja_txt = new JTextField(12);
+		etiqueta = new JLabel("Ingrese su nombre");
+
+		
+
+}
