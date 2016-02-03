@@ -22,5 +22,22 @@ public class DemoFlowLayout {
 		frame.add(etiqueta);
 		frame.add(caja_txt);	
 		frame.add(botonEnviar);
+		
+	//algunas configuraciones de la ventana 
+		frame.pack(); 
+		frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+		frame.setVisible(true); 
+	}
+	
+	public DemoFlowLayout()
+  	{
+		//constructor de la clase 
+		construyeVentana(); 
+	 } 
+
+	public static void main ( String [] Inforux)
+  	{	 
+		new DemoFlowLayout(); 
+  	} 
 
 }
