@@ -5,7 +5,7 @@ import javax.swing.JTextField;
 import javax.swing.WindowConstants; 
 import javax.swing.JFrame;
 
-public class DemoFlowLayout {
+public class DemoFlowLayout() {
 	private JButton botonEnviar;
 	private JTextField caja_txt;
 	private JLabel etiqueta;
