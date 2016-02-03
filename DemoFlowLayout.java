@@ -32,7 +32,7 @@ public class DemoFlowLayout {
 	public DemoFlowLayout()
   	{
 		//constructor de la clase 
-		construyeVentana(); 
+		buildWindow(); 
 	 } 
 
 	public static void main ( String [] Inforux)
