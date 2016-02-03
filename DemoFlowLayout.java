@@ -5,7 +5,7 @@ import javax.swing.JTextField;
 import javax.swing.WindowConstants; 
 import javax.swing.JFrame;
 
-public class DemoFlowLayout() {
+public class DemoFlowLayout {
 	private JButton botonEnviar;
 	private JTextField caja_txt;
 	private JLabel etiqueta;
@@ -35,7 +35,7 @@ public class DemoFlowLayout() {
 		buildWindow(); 
 	 } 
 
-	public static void main ( String [] Inforux)
+	public static void main (String[] args)
   	{	 
 		new DemoFlowLayout(); 
   	} 
