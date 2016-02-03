@@ -19,6 +19,8 @@ public class DemoFlowLayout {
 		caja_txt = new JTextField(12);
 		etiqueta = new JLabel("Ingrese su nombre");
 
-		
+		frame.add(etiqueta);
+		frame.add(caja_txt);	
+		frame.add(botonEnviar);
 
 }
